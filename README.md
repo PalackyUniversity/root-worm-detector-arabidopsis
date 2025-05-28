@@ -1,4 +1,4 @@
-# root-worm-detector-arabidopsis
+# Root Worm Detector for Arabidopsis
 
 ## Example
 ![Debug image](docs/debug.jpg)
@@ -15,9 +15,9 @@ pip3 install -r requirements.txt
 ```
 
 ## Run
-- Images should be placed in `data` directory
-- Output will be in `results` directory
-- 
+1. Images should be placed in `data` directory
+2. Run Python script:
 ```bash
 python3 predict.py
 ```
+3. Output is in `results` directory
